@@ -54,9 +54,7 @@ int main(void)
             execute_value = execute_cmd(cmd, cmd_arr);
 
             if (execute_value == -1)
-                /* only executed if error occur;
-                end the newly created process 
-                execute_value = execute_cmd(NULL);*/
+               
                 return (1);
         }
         else
